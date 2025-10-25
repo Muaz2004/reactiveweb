@@ -1,29 +1,17 @@
-/* src/pages/Footer.css */
+/* src/components/Footer.css */
 .footer {
+  background-color: #1f2a38; /* dark but distinct */
+  padding: 25px 0; /* more vertical space */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 15px 30px;
-  background-color: #2c3e50;
-  flex-wrap: wrap;
+  border-top: 3px solid #0EA5E9; /* separates footer from content */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.footer a {
-  color: white;
-  text-decoration: none;
+.footer-text {
+  color: #ffffff;
   font-weight: 500;
-  transition: color 0.3s;
-  margin-right: 15px;
-}
-
-.footer a:hover {
-  color: #f1c40f;
-  text-decoration: underline;
-}
-
-.footer-rights {
-  color: #f1f1f1;
-  font-size: 14px;
-  margin-top: 5px;
+  font-size: 16px; /* slightly bigger for readability */
+  text-align: center;
 }
