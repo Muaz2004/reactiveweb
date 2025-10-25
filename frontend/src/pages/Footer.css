@@ -1,7 +1,7 @@
 /* src/components/Footer.css */
 .footer {
   background-color: #1f2a38; /* dark but distinct */
-  padding: 25px 0; /* more vertical space */
+  padding: 15px 0; /* reduced vertical space */
   display: flex;
   justify-content: center;
   align-items: center;
