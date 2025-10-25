@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './PageLayout.css';
 
 export default function AboutPage() {
@@ -9,7 +10,7 @@ export default function AboutPage() {
       <div className="about-intro">
         <h2>Who We Are 🌍</h2>
         <p>
-          Genete Engenagn is a community-rooted Islamic organization dedicated to uplifting the most vulnerable among us.
+          Jenet Engenagn is a community-rooted Islamic organization dedicated to uplifting the most vulnerable among us.
           With faith as our compass and compassion as our mission, we serve those in need with sincerity, transparency, and care.
         </p>
       </div>
@@ -43,6 +44,14 @@ export default function AboutPage() {
           Whether you're here to volunteer, donate, or simply learn more — you're part of the change. 
           Together, we can build a world filled with hope, dignity, and care for all.
         </p>
+
+        {/* Get in Touch Button */}
+        <Link 
+          to="/contact" 
+          className="px-7 py-3 bg-[#0EA5E9] text-white rounded-xl shadow-lg shadow-[#0EA5E9]/30 hover:bg-[#0284C7] font-bold transition-all duration-300 transform hover:scale-105 inline-block mt-4"
+        >
+          Get in Touch ✉️
+        </Link>
       </div>
 
     </div>
